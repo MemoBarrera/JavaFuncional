@@ -67,10 +67,10 @@ public class Outsider {
      * objeto es mutable, asi que podemos modificarlo sin restricciones…
      */
     static void otherBadFunction(MutablePerson_2 person) {
-        List<String> emails = person.getEmails();
-        emails.clear();
+        List<String> email = person.getEmails();
+        email.clear();
 
-        emails.add("imnotevil@mail.com");
+        email.add("imnotevil@mail.com");
     }
 
     static void otherBadFunctionPart3(MutablePerson_3 person) {
